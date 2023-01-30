@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mathching Game</title>
+    <link rel="stylesheet" href="treasurehunt.css">
+  </head>
+  <body>
+    <h1>Treasure Hunt Game</h1>
+    <h2>Rules</h2>
+    <ul>
+      <li>Click the boxes to reveal what's on the map</li>
+      <li>If you click on the bomb, you lose</li>
+      <li>If you click on the treasure, you win</li>
+    </ul>
+    <img
+      src="https://img.freepik.com/free-vector/hand-drawn-flat-design-treasure-hunt-illustration_23-2149288597.jpg?w=2000"
+      height="200px"
+    />
+    <table border="1">
+      <tr>
+        <!--involking / calling function in javascript-->
+        <td id="0" onclick="treasure(0)">?</td>
+        <td id="1" onclick="treasure(1)">?</td>
+        <td id="2" onclick="treasure(2)">?</td>
+      </tr>
+      <tr>
+        <td id="3" onclick="treasure(3)">?</td>
+        <td id="4" onclick="treasure(4)">?</td>
+        <td id="5" onclick="treasure(5)">?</td>
+      </tr>
+      <tr>
+        <td id="6" onclick="treasure(6)">?</td>
+        <td id="7" onclick="treasure(7)">?</td>
+        <td id="8" onclick="treasure(8)">?</td>
+      </tr>
+    </table>
+    <button type="button">Restart Game</button>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+  </body>
+  <footer>&copy Christal and Megan</footer>
+</html>
