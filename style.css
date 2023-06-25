@@ -1,0 +1,58 @@
+h1,h2,p,h3,ul, li, table,footer {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 75px;
+}
+
+div {
+    text-align: center;    
+}
+
+body {
+    background-color: black;
+    background-image: url(https://c0.wallpaperflare.com/preview/852/735/749/american-football-ball-field-grass.jpg);
+    font-family: 'Ysabeau Office',sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center;
+    color: red;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+h3 {
+    border: black ridge 15px;
+    background-color: brown;
+    color: yellow;
+}
+
+.game {
+    list-style-position: inside;
+}
+
+#gameboard {
+    /* display: flex;
+    text-align: center;
+    justify-content: center;
+    border-color: white; */
+    background-color: black;
+    color: red;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border-style: double;
+}
+
+h2, p, ol {
+    color: white;
+}
+
+button {
+    color: yellow;
+    background-color: brown;
+    
+
+}
